@@ -1,0 +1,10 @@
+.toolbar-container{
+  display: flex;
+  gap: 10px;
+  background-color: #c76c6c;
+  color: #fff;
+
+  &__link{
+  color: #fff !important;
+  }
+}

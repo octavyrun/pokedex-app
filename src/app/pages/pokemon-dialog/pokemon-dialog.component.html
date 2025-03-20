@@ -1,0 +1,14 @@
+<mat-card class="pokemon-modal">
+  <h2>{{ data.name | titlecase }}</h2>
+
+  <img [src]="data.image" alt="{{ data.name }}" />
+
+  <h3>Abilities</h3>
+  <ul>
+    <li *ngFor="let ability of data.abilities">
+      {{ ability.ability.name | titlecase }}
+    </li>
+  </ul>
+
+  <button mat-button color="warn" (click)="closeDialog()">Close</button>
+</mat-card>

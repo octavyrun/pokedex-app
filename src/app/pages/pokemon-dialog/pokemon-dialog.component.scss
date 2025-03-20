@@ -1,0 +1,26 @@
+.pokemon-modal {
+  text-align: center;
+  padding: 20px;
+  max-width: 400px;
+  display: flex;
+  justify-content: column;
+  align-items: center;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 15px;
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0;
+}
+
+h2, h3 {
+  color: #c76c6c!important;
+  margin: 10px;
+}
