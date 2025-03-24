@@ -80,11 +80,6 @@ export class PokemonListComponent implements OnInit, AfterViewInit {
 
       this.dataSource.data = pokemonArray;
 
-      setTimeout(() => {
-        this.dataSource.paginator = this.paginator;
-        this.dataSource.sort = this.sort;
-        this.paginator._changePageSize(this.paginator.pageSize);
-      });
     });
   }
 
